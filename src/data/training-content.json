@@ -1,0 +1,84 @@
+{
+  "domains": [
+    {
+      "id": "colleague-enablement",
+      "title": { "en": "Colleague Enablement", "zh": "同事赋能" },
+      "description": { "en": "Onboarding and tools for internal enablement.", "zh": "入职和内部赋能工具。" },
+      "order": 1,
+      "modules": [
+        {
+          "id": "ce-intro",
+          "title": { "en": "Introduction to Colleague Enablement", "zh": "同事赋能简介" },
+          "description": { "en": "Overview of policies and tools.", "zh": "政策和工具概览。" },
+          "order": 1,
+          "estimatedMinutes": 30,
+          "topics": [
+            { "id": "ce-intro-1", "title": { "en": "Company Tools Tour", "zh": "公司工具导览" }, "order": 1, "durationMinutes": 15 },
+            { "id": "ce-intro-2", "title": { "en": "Support Process Basics", "zh": "支持流程基础" }, "order": 2, "durationMinutes": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-manufacturing",
+      "title": { "en": "General Manufacturing", "zh": "通用制造" },
+      "description": { "en": "Fundamental manufacturing processes.", "zh": "基础制造流程。" },
+      "order": 2,
+      "modules": []
+    },
+    {
+      "id": "packing",
+      "title": { "en": "Packing", "zh": "包装" },
+      "description": { "en": "Packing workflows and best practices.", "zh": "包装流程和最佳实践。" },
+      "order": 3,
+      "modules": []
+    },
+    {
+      "id": "moulding",
+      "title": { "en": "Moulding", "zh": "模塑" },
+      "description": { "en": "Moulding operations and safety.", "zh": "模塑操作与安全。" },
+      "order": 4,
+      "modules": []
+    },
+    {
+      "id": "logistics",
+      "title": { "en": "Logistics", "zh": "物流" },
+      "description": { "en": "Logistics and material handling.", "zh": "物流与物料处理。" },
+      "order": 5,
+      "modules": []
+    },
+    {
+      "id": "processing",
+      "title": { "en": "Processing", "zh": "加工" },
+      "description": { "en": "Processing line fundamentals.", "zh": "加工线基础。" },
+      "order": 6,
+      "modules": []
+    },
+    {
+      "id": "network-server",
+      "title": { "en": "Network & Server Infrastructure", "zh": "网络与服务器基础设施" },
+      "description": { "en": "Networking, routing, and server support.", "zh": "网络、路由与服务器支持。" },
+      "order": 7,
+      "modules": [
+        {
+          "id": "ns-fundamentals",
+          "title": { "en": "Network Fundamentals", "zh": "网络基础" },
+          "order": 1,
+          "estimatedMinutes": 90,
+          "topics": [
+            { "id": "nf-1", "title": { "en": "OSI Model", "zh": "OSI 模型" }, "order": 1, "durationMinutes": 20 },
+            { "id": "nf-2", "title": { "en": "IP Addressing & Subnets", "zh": "IP 地址与子网" }, "order": 2, "durationMinutes": 30 },
+            { "id": "nf-3", "title": { "en": "Routing Basics", "zh": "路由基础" }, "order": 3, "durationMinutes": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-training-topics",
+      "title": { "en": "General Training Topics", "zh": "通用培训主题" },
+      "description": { "en": "Cross-domain topics for general skills.", "zh": "跨领域的通用技能主题。" },
+      "order": 8,
+      "modules": []
+    }
+  ]
+}
